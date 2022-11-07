@@ -1,3 +1,4 @@
 # palautusrepositori
 Ohjelmistotuotannon palautusrepositorio'
-Ohtuvarasto ![https://github.com/Ahannila/ohtuvarasto]
+
+Ohtuvarasto https://github.com/Ahannila/ohtuvarasto
