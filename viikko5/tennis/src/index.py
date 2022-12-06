@@ -7,9 +7,11 @@ def main():
     print(game.get_score())
 
     game.won_point("player1")
+
     print(game.get_score())
 
     game.won_point("player1")
+
     print(game.get_score())
 
     game.won_point("player2")
