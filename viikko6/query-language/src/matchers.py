@@ -9,7 +9,18 @@ class And:
 
         return True
 
+class All:
+    def __init__(self) -> None:
+        pass
 
+class Not:
+    def __init__(self) -> None:
+        pass
+
+class HasFewerThan:
+    def __init__(self) -> None:
+        pass
+    
 class PlaysIn:
     def __init__(self, team):
         self._team = team
