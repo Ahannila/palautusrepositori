@@ -40,7 +40,15 @@ class PlaysIn:
     def test(self, player):
         return player.team == self._team
 
+class Or:
+    def __init__(self, *matches):
+        self._matches = matches
 
+    def test(self, player):
+        for matcher in self._matches:
+            if matcher.test(player):
+                return True
+        return False
 class HasAtLeast:
     def __init__(self, value, attr):
         self._value = value
