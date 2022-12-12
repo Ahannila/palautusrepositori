@@ -10,9 +10,6 @@ class And:
         return True
 
 class All:
-    def __init__(self) -> None:
-        pass
-    
     def test(self):
         return True
 
