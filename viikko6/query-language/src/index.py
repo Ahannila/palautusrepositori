@@ -18,16 +18,24 @@ def main():
     #    PlaysIn("NYR")
     #)
 
+    #matcher = And(
+    #    Not(HasAtLeast(1, "goals")),
+    #    PlaysIn("NYR")
+    #)
+
+    #matcher = Or(
+    #    HasAtLeast(45, "goals"),
+    #    HasAtLeast(70, "assists")
+    #)
+
     matcher = And(
-        Not(HasAtLeast(1, "goals")),
-        PlaysIn("NYR")
+        HasAtLeast(70, "points"),
+        Or(
+            PlaysIn("NYR"),
+            PlaysIn("FLA"),
+            PlaysIn("BOS")
+        )
     )
-
-    matcher = Or(
-        HasAtLeast(45, "goals"),
-        HasAtLeast(70, "assists")
-    )
-
 
     
 
